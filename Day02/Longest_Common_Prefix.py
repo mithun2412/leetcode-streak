@@ -14,3 +14,6 @@ class Solution:
                     return ""
     
         return prefix
+
+#Time Complexity: O(S) where S is the sum of all characters in all strings.
+#Space Complexity: O(1)
