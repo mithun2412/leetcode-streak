@@ -16,3 +16,7 @@ class Solution:
                 total += roman[s[i]]
 
         return total
+
+
+#Time Complexity: O(n)
+#Space Complexity: O(1)

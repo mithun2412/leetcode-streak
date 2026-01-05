@@ -9,3 +9,7 @@ class Solution:
             return True 
         else:
             return False 
+
+
+#Time Complexity: O(log10(n))
+#Space Complexity: O(1)
