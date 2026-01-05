@@ -5,15 +5,14 @@ class Solution:
 
         result = ""
 
-        for i in range(len(strs[0])):        # go character by character
+        for i in range(len(strs[0])):       
             current_char = strs[0][i]
 
-            for s in strs:                   # check this char in all strings
+            for s in strs:                   
                 if i == len(s) or s[i] != current_char:
-                    return result            # stop immediately
+                    return result           
 
-            result += current_char           # add char if all matched
-
+            result += current_char           
         return result
 
 #Time Complexity: O(S) where S is the sum of all characters in all strings.
